@@ -1,0 +1,15 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="@tap,@tap.stop,@tap.prevent,@tap.once,@click,@click.stop,@click.prevent,@click.once,@change,@change.lazy,@change.number,@change.trim,v-model,v-for,v-text,v-html,v-if,v-else-if,v-else,v-pre,v-once,v-bind,scoped,@keyup.enter,:class,:style,v-show,:key,@keyup,@submit,@submit.prevent,@mouseenter,@mouseleave,@mouseout,@mouseover " />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
