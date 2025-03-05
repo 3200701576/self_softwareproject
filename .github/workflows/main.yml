@@ -29,4 +29,5 @@ jobs:
       - name: Build and Test with Maven
         run: |
           cd backend
-          mvn clean test
+          mvn clean install -Dmaven.test.failure.ignore=true
+          mvn test
