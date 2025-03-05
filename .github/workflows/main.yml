@@ -23,6 +23,5 @@ jobs:
 
       - name: Build and Test with Maven
         run: |
-          cd backend  # 进入你的 Spring Boot 后端目录
-          mvn clean install
-          mvn test
+          cd backend  
+          mvn clean test  
