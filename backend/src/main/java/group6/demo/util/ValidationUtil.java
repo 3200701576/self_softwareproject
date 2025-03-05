@@ -7,15 +7,15 @@ import java.util.regex.Pattern;
 public class ValidationUtil {
     // Username validation: 3-20 characters, letters, numbers and underscore
     private static final Pattern USERNAME_PATTERN = Pattern.compile("^[a-zA-Z0-9_]{3,20}$");
-    
+
     // Password validation: minimum 8 characters, at least one uppercase letter, one lowercase letter, one number
-    private static final Pattern PASSWORD_PATTERN = 
+    private static final Pattern PASSWORD_PATTERN =
         Pattern.compile("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)[a-zA-Z\\d]{8,}$");
-    
+
     // Email validation
-    private static final Pattern EMAIL_PATTERN = 
+    private static final Pattern EMAIL_PATTERN =
         Pattern.compile("^[A-Za-z0-9+_.-]+@(.+)$");
-    
+
     // Mobile validation: numbers only, 10-13 digits
     private static final Pattern MOBILE_PATTERN = Pattern.compile("^\\d{10,13}$");
 
@@ -52,4 +52,4 @@ public class ValidationUtil {
             return PRICE_PATTERN.matcher(priceStr).matches();
         }
     }
-} 
+}

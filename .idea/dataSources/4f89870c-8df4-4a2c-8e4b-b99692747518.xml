@@ -20,7 +20,7 @@
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="6" parent="1" name="vuesb">
-      <LastIntrospectionLocalTimestamp>2025-03-03.02:53:46</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2025-03-03.14:11:16</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <table id="7" parent="6" name="b_order">
